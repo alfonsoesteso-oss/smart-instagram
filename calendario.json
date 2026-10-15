@@ -1,6 +1,15 @@
 {
   "piezas": [
     {
+      "id": "2026-10-15-reel-actualizaciones",
+      "tipo": "reel",
+      "fecha": "2026-10-15T19:45:00",
+      "medios": [
+        "medios/semana-2/reel-actualizaciones.mp4"
+      ],
+      "texto": "¿Cuántas veces has pulsado «Recordarme mañana»? 😅\n\nActualizar no es una molestia: es la forma más fácil de cerrar puertas a virus y fallos. Actívalas en automático y déjalas para cuando acabes de trabajar.\n\n¿Cuánto llevas posponiendo la última actualización? Cuéntanos en comentarios 👇\n\nSíguenos para más consejos de informática y seguridad.\n\n#actualizaciones #ciberseguridad #seguridadinformatica #windows #tecnologia #consejostech #informatica #pymes #smartinformatica #madrid"
+    },
+    {
       "id": "2026-10-20-reel-mitos",
       "tipo": "reel",
       "fecha": "2026-10-20T19:00:00",
