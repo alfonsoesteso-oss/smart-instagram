@@ -99,6 +99,7 @@ def main():
     estado = json.load(open(EST, encoding="utf-8")) if os.path.exists(EST) else {}
     ahora = dt.datetime.now(MADRID)
     cambios = False
+    fallo_ahora = False
     for p in cal["piezas"]:
         pid = p["id"]
         if estado.get(pid, {}).get("estado") in ("publicada", "omitida"):
@@ -123,11 +124,12 @@ def main():
             estado[pid] = {"estado": "error" if intentos < 3 else "omitida", "intentos": intentos,
                            "error": str(e)[:500], "en": ahora.isoformat()}
             print(f"[{pid}] ERROR: {e}", file=sys.stderr)
+            fallo_ahora = True
         cambios = True
     if cambios:
         json.dump(estado, open(EST, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
-    if any(v.get("estado") in ("error", "omitida") and v.get("error") for v in estado.values()):
-        # marca el workflow en rojo para que GitHub avise por correo
+    if fallo_ahora:
+        # marca el workflow en rojo solo cuando falla algo nuevo, para que GitHub avise por correo
         sys.exit(1)
 
 

@@ -20,7 +20,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Comprobar conexión con Instagram
+      - name: Comprobar conexión con Instagram (solo al lanzarlo a mano)
+        if: github.event_name == 'workflow_dispatch'
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
