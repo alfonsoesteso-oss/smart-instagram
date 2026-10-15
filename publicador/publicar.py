@@ -84,7 +84,17 @@ def crear(pieza):
     return api("POST", f"{UID}/media_publish", {"creation_id": r["id"]})["id"]
 
 
+def comprobar():
+    if not UID or not TOK:
+        print("FALTAN los secretos IG_USER_ID / IG_TOKEN en GitHub (Settings > Secrets and variables > Actions)")
+        sys.exit(1)
+    r = api("GET", UID, {"fields": "username,media_count"})
+    print(f"Conexión correcta con @{r.get('username')} ({r.get('media_count')} publicaciones)")
+
+
 def main():
+    if "--comprobar" in sys.argv:
+        return comprobar()
     cal = json.load(open(CAL, encoding="utf-8"))
     estado = json.load(open(EST, encoding="utf-8")) if os.path.exists(EST) else {}
     ahora = dt.datetime.now(MADRID)

@@ -20,6 +20,11 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Comprobar conexión con Instagram
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+        run: python publicador/publicar.py --comprobar
       - name: Publicar lo pendiente
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
