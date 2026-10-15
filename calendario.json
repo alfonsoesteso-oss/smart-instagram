@@ -1,1 +1,39 @@
-{"piezas": []}
+{
+  "piezas": [
+    {
+      "id": "2026-10-20-reel-mitos",
+      "tipo": "reel",
+      "fecha": "2026-10-20T19:00:00",
+      "medios": [
+        "medios/semana-2/reel-mitos-ciberseguridad.mp4"
+      ],
+      "texto": "3 mitos de ciberseguridad que conviene olvidar ya 🛑\n\n¿Cuál de los tres creías tú? Cuéntanoslo en comentarios 👇\nY si conoces a alguien que dice \"a mí no me pasa\", envíaselo.\n\nSíguenos para más consejos de seguridad y trucos de informática.\n\n#ciberseguridad #seguridadinformatica #mitos #estafas #phishing #tecnologia #consejostech #internet #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-10-22-reel-humor",
+      "tipo": "reel",
+      "fecha": "2026-10-22T19:00:00",
+      "medios": [
+        "medios/semana-2/reel-no-hagas-esto-trabajo.mp4"
+      ],
+      "texto": "Cosas que NO debes hacer en el trabajo (y que seguro has visto alguna) 😅\n\nEtiqueta a ese compañero que lo hace. Luego te pide ayuda a ti.\n\nSíguenos: informática sin dramas.\n\n#humor #humoroficina #informatica #ciberseguridad #trabajo #oficina #memes #tecnologia #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-10-24-reel-ordenador",
+      "tipo": "reel",
+      "fecha": "2026-10-24T19:00:00",
+      "medios": [
+        "medios/semana-2/reel-vender-ordenador.mp4"
+      ],
+      "texto": "Vas a vender, regalar o tirar tu ordenador. Antes de nada, haz esto 👇\n\nVaciar la papelera no borra tus datos. Si necesitas ayuda para dejarlo bien limpio, escríbenos.\n\nSíguenos para más consejos de informática y seguridad.\n\n#ordenador #privacidad #protecciondedatos #ciberseguridad #reciclaje #informatica #tecnologia #consejostech #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-10-25-story-resumen",
+      "tipo": "story",
+      "fecha": "2026-10-25T20:00:00",
+      "medios": [
+        "medios/semana-2/story-domingo-resumen.png"
+      ]
+    }
+  ]
+}

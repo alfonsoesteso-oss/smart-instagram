@@ -20,13 +20,15 @@ UID = os.environ.get("IG_USER_ID", "")
 TOK = os.environ.get("IG_TOKEN", "")
 DRY = os.environ.get("DRY_RUN") == "1"
 REPO = os.environ.get("GITHUB_REPOSITORY", "alfonsoesteso-oss/smart-instagram")
-RAMA = os.environ.get("RAMA_MEDIOS", "main")
 MADRID = ZoneInfo("Europe/Madrid")
 MARGEN_MAX_H = 12  # no publica piezas que se pasaron de hora más de 12 h
 
 
 def url_medio(ruta):
-    return f"https://raw.githubusercontent.com/{REPO}/{RAMA}/{urllib.parse.quote(ruta)}"
+    # Los medios se sirven con GitHub Pages (tipos de contenido correctos para vídeo)
+    usuario, repo = REPO.split("/")
+    base = os.environ.get("MEDIOS_BASE", f"https://{usuario}.github.io/{repo}")
+    return f"{base}/{urllib.parse.quote(ruta)}"
 
 
 def api(metodo, ruta, datos=None):
