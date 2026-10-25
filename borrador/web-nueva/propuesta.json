@@ -1,0 +1,20 @@
+{
+  "piezas": [
+    {
+      "id": "2026-10-25-carrusel-web-nueva",
+      "tipo": "carrusel",
+      "fecha": "2026-10-25T19:00:00",
+      "medios": [
+        "carrusel-web-nueva-01.png",
+        "carrusel-web-nueva-02.png",
+        "carrusel-web-nueva-03.png",
+        "carrusel-web-nueva-04.png",
+        "carrusel-web-nueva-05.png",
+        "carrusel-web-nueva-06.png",
+        "carrusel-web-nueva-07.png",
+        "carrusel-web-nueva-08.png"
+      ],
+      "texto": "¡Estrenamos web! 🎉\n\nHemos renovado www.smart-informatica.es para que encuentres todo más rápido:\n\n💻 Todos nuestros servicios, explicados claro\n💶 Planes y precios: calcula tu cuota en segundos\n🛠️ Cómo trabajamos cuando algo falla\n🌐 Diseño web para pymes, desde 690 € + IVA\n🔍 Auditoría informática gratuita y sin compromiso\n\nTienes el enlace en nuestra bio 🔗\nEntra, échale un vistazo y cuéntanos en comentarios qué te parece 👇\n\nY si conoces a alguien con una pyme o un negocio que necesite echarle una mano a su informática, compártele este post.\n\n#webnueva #smartinformatica #madrid #pymes #informaticaparaempresas #mantenimientoinformatico #soporteinformatico #diseñoweb #ciberseguridad #rgpd #autonomos #empresasmadrid"
+    }
+  ]
+}
