@@ -1,0 +1,98 @@
+PACK SEMANA 3 · 26 oct – 1 nov 2026 (BORRADOR, sin aprobar)
+
+STORIES CON STICKER (las subes tú a mano; carpeta stories/)
+- Lun: encuesta ¿Has cambiado la clave de fábrica del router? Sí/No
+- Mar: encuesta ¿Has recibido un aviso de acceso sospechoso? Sí/No
+- Mié: encuesta ¿Tu empresa tiene contrato de mantenimiento? Sí/No lo sé
+- Jue: encuesta frase de videollamada: ¿Se me oye? / ¿Se me ve?
+- Vie: encuesta ¿Usas Excel a diario? Sí/Solo a veces
+- Sáb: encuesta ¿Qué da más miedo? Perder archivos / Que me hackeen
+- Dom: caja de preguntas (story 2). El resumen (story 1) se publica solo a las 20:00.
+
+==================================================
+2026-10-26-carrusel-wifi (carrusel, 2026-10-26T19:00:00)
+==================================================
+6 ajustes para que tu Wi-Fi vaya más rápido y sea más seguro 📶
+
+No hace falta ser informático: con cinco minutos y el panel de tu router puedes cerrar puertas y ganar velocidad. Desliza y compruébalos uno a uno.
+
+¿Cuántos tienes ya hechos? Cuéntanoslo en comentarios 👇
+Guárdalo y compártelo con quien siempre se queja del Wi-Fi.
+
+Síguenos para más trucos de informática y seguridad.
+
+#wifi #router #ciberseguridad #seguridadinformatica #tecnologia #consejostech #internet #informatica #pymes #smartinformatica #madrid
+
+==================================================
+2026-10-27-reel-cuenta-hackeada (reel, 2026-10-27T19:00:00)
+==================================================
+¿Te han hackeado una cuenta? 3 señales de alarma y qué hacer ya 🚨
+
+Avisos de acceso que no reconoces, mensajes que tú no enviaste, cambios de contraseña que no pediste… Si te suena, cambia la contraseña, activa la verificación en dos pasos y cierra las sesiones abiertas.
+
+¿Te ha pasado alguna vez? Cuéntanoslo en comentarios 👇
+
+Síguenos para más consejos de informática y seguridad.
+
+#ciberseguridad #hackeo #seguridadinformatica #contraseñas #verificacionendospasos #tecnologia #consejostech #privacidad #informatica #smartinformatica #madrid
+
+==================================================
+2026-10-28-carrusel-contrato (carrusel, 2026-10-28T19:00:00)
+==================================================
+Contrato de mantenimiento informático: qué debe incluir para tu pyme 🧾
+
+Si tu negocio depende de sus equipos, un buen contrato evita sorpresas: qué cubre, tiempos de respuesta, copias de seguridad, seguridad, tratamiento de datos e informes con precio claro.
+
+¿Tienes uno firmado? Te revisamos lo que tienes (o te proponemos uno) sin compromiso: escríbenos por mensaje directo.
+
+Contenido divulgativo. No sustituye al asesoramiento legal.
+
+#pymes #autonomos #mantenimientoinformatico #soporteit #rgpd #ciberseguridad #copiasdeseguridad #empresas #informatica #smartinformatica #madrid
+
+==================================================
+2026-10-29-reel-videollamada (reel, 2026-10-29T19:00:00)
+==================================================
+Frases típicas en una videollamada 🎥😅
+
+«¿Se me oye?» «Voy a compartir pantalla…» «¿Por qué hay eco?». Todos hemos estado ahí.
+
+¿Cuál es la tuya? Cuéntanoslo en comentarios 👇 Y etiqueta a ese compañero que siempre está en mute.
+
+Síguenos: informática sin dramas.
+
+#humor #videollamada #teletrabajo #reunion #oficina #informaticos #tecnologia #memes #informatica #smartinformatica #madrid
+
+==================================================
+2026-10-30-carrusel-excel (carrusel, 2026-10-30T19:00:00)
+==================================================
+6 atajos de Excel que te ahorran tiempo ⌨️
+
+Tablas, filtros, suma automática, saltos por los datos… Seis combinaciones (en Windows) para trabajar más rápido con tus hojas de cálculo.
+
+¿Cuál no conocías? Cuéntanoslo en comentarios 👇
+Guárdalo para tenerlo a mano y compártelo con quien vive en Excel.
+
+Síguenos para más trucos de Office, Windows y seguridad.
+
+#excel #office #microsoft365 #atajos #trucos #productividad #consejostech #tecnologia #informatica #smartinformatica #madrid
+
+==================================================
+2026-10-31-reel-sustos (reel, 2026-10-31T19:00:00)
+==================================================
+Lo que de verdad da miedo a un informático 🎃
+
+Un USB encontrado, un enlace pulsado sin mirar, un antivirus caducado… Esta noche de Halloween, mejor pensar antes de hacer clic.
+
+¿Cuál te da más miedo? Cuéntanoslo en comentarios 👇
+
+Feliz Halloween y síguenos para más consejos de seguridad.
+
+#halloween #ciberseguridad #seguridadinformatica #phishing #usb #antivirus #tecnologia #consejostech #informatica #smartinformatica #madrid
+
+==================================================
+2026-11-01-story-resumen (story, 2026-11-01T20:00:00)
+==================================================
+(story de resumen, sin texto)
+
+TEMAS SEMANA 3 (no repetir): ajustes Wi-Fi; cuenta hackeada; contrato de mantenimiento; videollamada; atajos de Excel; sustos de Halloween.
+IDEAS SEMANA 4 (2-8 nov): phishing por email; Windows 11 trucos; teletrabajo seguro; qué es una VPN; impresoras; caso real anonimizado de recuperación de datos; detrás de cámaras.
