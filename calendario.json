@@ -59,6 +59,89 @@
       "medios": [
         "medios/semana-2/story-domingo-resumen.png"
       ]
+    },
+    {
+      "id": "2026-10-26-carrusel-wifi",
+      "tipo": "carrusel",
+      "fecha": "2026-10-26T19:00:00",
+      "medios": [
+        "medios/semana-3/carrusel-wifi-01.png",
+        "medios/semana-3/carrusel-wifi-02.png",
+        "medios/semana-3/carrusel-wifi-03.png",
+        "medios/semana-3/carrusel-wifi-04.png",
+        "medios/semana-3/carrusel-wifi-05.png",
+        "medios/semana-3/carrusel-wifi-06.png",
+        "medios/semana-3/carrusel-wifi-07.png",
+        "medios/semana-3/carrusel-wifi-08.png"
+      ],
+      "texto": "6 ajustes para que tu Wi-Fi vaya más rápido y sea más seguro 📶\n\nNo hace falta ser informático: con cinco minutos y el panel de tu router puedes cerrar puertas y ganar velocidad. Desliza y compruébalos uno a uno.\n\n¿Cuántos tienes ya hechos? Cuéntanoslo en comentarios 👇\nGuárdalo y compártelo con quien siempre se queja del Wi-Fi.\n\nSíguenos para más trucos de informática y seguridad.\n\n#wifi #router #ciberseguridad #seguridadinformatica #tecnologia #consejostech #internet #informatica #pymes #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-10-27-reel-cuenta-hackeada",
+      "tipo": "reel",
+      "fecha": "2026-10-27T19:00:00",
+      "medios": [
+        "medios/semana-3/reel-cuenta-hackeada.mp4"
+      ],
+      "texto": "¿Te han hackeado una cuenta? 3 señales de alarma y qué hacer ya 🚨\n\nAvisos de acceso que no reconoces, mensajes que tú no enviaste, cambios de contraseña que no pediste… Si te suena, cambia la contraseña, activa la verificación en dos pasos y cierra las sesiones abiertas.\n\n¿Te ha pasado alguna vez? Cuéntanoslo en comentarios 👇\n\nSíguenos para más consejos de informática y seguridad.\n\n#ciberseguridad #hackeo #seguridadinformatica #contraseñas #verificacionendospasos #tecnologia #consejostech #privacidad #informatica #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-10-28-carrusel-contrato",
+      "tipo": "carrusel",
+      "fecha": "2026-10-28T19:00:00",
+      "medios": [
+        "medios/semana-3/carrusel-contrato-01.png",
+        "medios/semana-3/carrusel-contrato-02.png",
+        "medios/semana-3/carrusel-contrato-03.png",
+        "medios/semana-3/carrusel-contrato-04.png",
+        "medios/semana-3/carrusel-contrato-05.png",
+        "medios/semana-3/carrusel-contrato-06.png",
+        "medios/semana-3/carrusel-contrato-07.png",
+        "medios/semana-3/carrusel-contrato-08.png"
+      ],
+      "texto": "Contrato de mantenimiento informático: qué debe incluir para tu pyme 🧾\n\nSi tu negocio depende de sus equipos, un buen contrato evita sorpresas: qué cubre, tiempos de respuesta, copias de seguridad, seguridad, tratamiento de datos e informes con precio claro.\n\n¿Tienes uno firmado? Te revisamos lo que tienes (o te proponemos uno) sin compromiso: escríbenos por mensaje directo.\n\nContenido divulgativo. No sustituye al asesoramiento legal.\n\n#pymes #autonomos #mantenimientoinformatico #soporteit #rgpd #ciberseguridad #copiasdeseguridad #empresas #informatica #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-10-29-reel-videollamada",
+      "tipo": "reel",
+      "fecha": "2026-10-29T19:00:00",
+      "medios": [
+        "medios/semana-3/reel-videollamada.mp4"
+      ],
+      "texto": "Frases típicas en una videollamada 🎥😅\n\n«¿Se me oye?» «Voy a compartir pantalla…» «¿Por qué hay eco?». Todos hemos estado ahí.\n\n¿Cuál es la tuya? Cuéntanoslo en comentarios 👇 Y etiqueta a ese compañero que siempre está en mute.\n\nSíguenos: informática sin dramas.\n\n#humor #videollamada #teletrabajo #reunion #oficina #informaticos #tecnologia #memes #informatica #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-10-30-carrusel-excel",
+      "tipo": "carrusel",
+      "fecha": "2026-10-30T19:00:00",
+      "medios": [
+        "medios/semana-3/carrusel-excel-01.png",
+        "medios/semana-3/carrusel-excel-02.png",
+        "medios/semana-3/carrusel-excel-03.png",
+        "medios/semana-3/carrusel-excel-04.png",
+        "medios/semana-3/carrusel-excel-05.png",
+        "medios/semana-3/carrusel-excel-06.png",
+        "medios/semana-3/carrusel-excel-07.png",
+        "medios/semana-3/carrusel-excel-08.png"
+      ],
+      "texto": "6 atajos de Excel que te ahorran tiempo ⌨️\n\nTablas, filtros, suma automática, saltos por los datos… Seis combinaciones (en Windows) para trabajar más rápido con tus hojas de cálculo.\n\n¿Cuál no conocías? Cuéntanoslo en comentarios 👇\nGuárdalo para tenerlo a mano y compártelo con quien vive en Excel.\n\nSíguenos para más trucos de Office, Windows y seguridad.\n\n#excel #office #microsoft365 #atajos #trucos #productividad #consejostech #tecnologia #informatica #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-10-31-reel-sustos",
+      "tipo": "reel",
+      "fecha": "2026-10-31T19:00:00",
+      "medios": [
+        "medios/semana-3/reel-sustos.mp4"
+      ],
+      "texto": "Lo que de verdad da miedo a un informático 🎃\n\nUn USB encontrado, un enlace pulsado sin mirar, un antivirus caducado… Esta noche de Halloween, mejor pensar antes de hacer clic.\n\n¿Cuál te da más miedo? Cuéntanoslo en comentarios 👇\n\nFeliz Halloween y síguenos para más consejos de seguridad.\n\n#halloween #ciberseguridad #seguridadinformatica #phishing #usb #antivirus #tecnologia #consejostech #informatica #smartinformatica #madrid"
+    },
+    {
+      "id": "2026-11-01-story-resumen",
+      "tipo": "story",
+      "fecha": "2026-11-01T20:00:00",
+      "medios": [
+        "medios/semana-3/story-domingo-resumen.png"
+      ]
     }
   ]
 }
