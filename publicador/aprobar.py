@@ -21,8 +21,16 @@ for p in prop["piezas"]:
     dt.datetime.fromisoformat(p["fecha"])
     nuevos = []
     for m in p["medios"]:
-        shutil.copy2(os.path.join(origen, m), os.path.join(destino, os.path.basename(m)))
-        nuevos.append(f"medios/{semana}/{os.path.basename(m)}")
+        nombre = os.path.basename(m)
+        if nombre.lower().endswith(".png"):
+            # La API de Instagram solo admite JPEG: los PNG grandes fallan al descargarse
+            from PIL import Image
+            nombre = nombre[:-4] + ".jpg"
+            Image.open(os.path.join(origen, m)).convert("RGB").save(
+                os.path.join(destino, nombre), "JPEG", quality=92, optimize=True)
+        else:
+            shutil.copy2(os.path.join(origen, m), os.path.join(destino, nombre))
+        nuevos.append(f"medios/{semana}/{nombre}")
     p["medios"] = nuevos
     cal["piezas"].append(p)
 cal["piezas"].sort(key=lambda p: p["fecha"])

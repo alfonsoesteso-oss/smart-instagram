@@ -173,14 +173,14 @@
       "tipo": "carrusel",
       "fecha": "2026-11-04T19:00:00",
       "medios": [
-        "medios/semana-4/carrusel-teletrabajo-01.png",
-        "medios/semana-4/carrusel-teletrabajo-02.png",
-        "medios/semana-4/carrusel-teletrabajo-03.png",
-        "medios/semana-4/carrusel-teletrabajo-04.png",
-        "medios/semana-4/carrusel-teletrabajo-05.png",
-        "medios/semana-4/carrusel-teletrabajo-06.png",
-        "medios/semana-4/carrusel-teletrabajo-07.png",
-        "medios/semana-4/carrusel-teletrabajo-08.png"
+        "medios/semana-4/carrusel-teletrabajo-01.jpg",
+        "medios/semana-4/carrusel-teletrabajo-02.jpg",
+        "medios/semana-4/carrusel-teletrabajo-03.jpg",
+        "medios/semana-4/carrusel-teletrabajo-04.jpg",
+        "medios/semana-4/carrusel-teletrabajo-05.jpg",
+        "medios/semana-4/carrusel-teletrabajo-06.jpg",
+        "medios/semana-4/carrusel-teletrabajo-07.jpg",
+        "medios/semana-4/carrusel-teletrabajo-08.jpg"
       ],
       "texto": "Teletrabajo seguro: 6 medidas para tu pyme 🏠💻\n\nEquipos al día, verificación en dos pasos, conexión protegida, copias, normas claras y formación. Con pocas medidas, trabajar en remoto es mucho más seguro.\n\n¿Tu equipo trabaja en remoto? Te revisamos cómo lo tenéis, sin compromiso: escríbenos por mensaje directo.\n\nContenido divulgativo. No sustituye al asesoramiento legal.\n\n#teletrabajo #pymes #autonomos #ciberseguridad #seguridadinformatica #empresas #copiasdeseguridad #rgpd #informatica #smartinformatica #madrid"
     },
@@ -198,14 +198,14 @@
       "tipo": "carrusel",
       "fecha": "2026-11-06T19:00:00",
       "medios": [
-        "medios/semana-4/carrusel-windows11-01.png",
-        "medios/semana-4/carrusel-windows11-02.png",
-        "medios/semana-4/carrusel-windows11-03.png",
-        "medios/semana-4/carrusel-windows11-04.png",
-        "medios/semana-4/carrusel-windows11-05.png",
-        "medios/semana-4/carrusel-windows11-06.png",
-        "medios/semana-4/carrusel-windows11-07.png",
-        "medios/semana-4/carrusel-windows11-08.png"
+        "medios/semana-4/carrusel-windows11-01.jpg",
+        "medios/semana-4/carrusel-windows11-02.jpg",
+        "medios/semana-4/carrusel-windows11-03.jpg",
+        "medios/semana-4/carrusel-windows11-04.jpg",
+        "medios/semana-4/carrusel-windows11-05.jpg",
+        "medios/semana-4/carrusel-windows11-06.jpg",
+        "medios/semana-4/carrusel-windows11-07.jpg",
+        "medios/semana-4/carrusel-windows11-08.jpg"
       ],
       "texto": "6 trucos de Windows 11 que quizá no conocías 🪟\n\nDiseños de ajuste, ajustes rápidos, escritorios virtuales, el menú contextual clásico… Pequeños atajos para trabajar más cómodo.\n\n¿Cuál usarás desde hoy? Cuéntanoslo en comentarios 👇\nGuárdalo para tenerlo a mano y compártelo con quien use Windows 11.\n\nSíguenos para más trucos de Windows, Office y seguridad.\n\n#windows11 #windows #trucos #atajos #productividad #microsoft #consejostech #tecnologia #informatica #smartinformatica #madrid"
     },
@@ -223,7 +223,7 @@
       "tipo": "story",
       "fecha": "2026-11-08T20:00:00",
       "medios": [
-        "medios/semana-4/story-domingo-resumen.png"
+        "medios/semana-4/story-domingo-resumen.jpg"
       ]
     }
   ]
