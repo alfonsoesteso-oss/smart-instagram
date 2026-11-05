@@ -225,6 +225,17 @@
       "medios": [
         "medios/semana-4/story-domingo-resumen.jpg"
       ]
+    },
+    {
+      "id": "2026-11-05-blog-38036",
+      "tipo": "imagen",
+      "fecha": "2026-11-05T20:35:00",
+      "medios": [
+        "medios/blog/2026-11-05-invitaciones-falsas-de-google-calendar-como-protegerte.jpg"
+      ],
+      "servidor": "raw",
+      "texto": "📝 Nueva entrada en nuestro blog: «Invitaciones falsas de Google Calendar: cómo protegerte»\n\nInvitaciones falsas de Google Calendar roban cuentas y se saltan la verificación en dos pasos. Te explicamos cómo funciona la estafa y cómo protegerte hoy.\n\n👉 Léela completa en el enlace de nuestra bio o aquí:\nhttps://www.smart-informatica.es/invitaciones-falsas-de-google-calendar-como-protegerte/\n\n#smartinformatica #madrid #blog #informatica #ciberseguridad #tecnologia #pymes #consejostech",
+      "origen": "https://www.smart-informatica.es/invitaciones-falsas-de-google-calendar-como-protegerte/"
     }
   ]
 }
