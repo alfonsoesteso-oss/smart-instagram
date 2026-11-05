@@ -1,0 +1,32 @@
+name: Desbloquear GitHub Pages
+
+# Úsalo si un despliegue de Pages se queda colgado ("due to in progress deployment").
+# Actions > Desbloquear GitHub Pages > Run workflow, y pega el SHA del commit que aparece en el error.
+on:
+  workflow_dispatch:
+    inputs:
+      sha:
+        description: "SHA del despliegue colgado (aparece en el error)"
+        required: true
+  push:
+    branches: [main]
+    paths: [.github/workflows/pages-desbloquear.yml]
+
+permissions:
+  pages: write
+  contents: read
+
+jobs:
+  desbloquear:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancelar el despliegue colgado y lanzar uno nuevo
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ inputs.sha || 'a7e6111d3d981e4b2aee204e72a9ee06bb8a5b3c' }}
+        run: |
+          api=https://api.github.com/repos/${GITHUB_REPOSITORY}/pages
+          h=(-H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json")
+          curl -s -w "\nCancelar $SHA: HTTP %{http_code}\n" -X POST "${h[@]}" "$api/deployments/$SHA/cancel"
+          sleep 10
+          curl -s -w "\nNuevo build: HTTP %{http_code}\n" -X POST "${h[@]}" "$api/builds"

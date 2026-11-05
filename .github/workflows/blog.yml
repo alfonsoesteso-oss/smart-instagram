@@ -13,6 +13,7 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 concurrency:
   group: publicar-instagram   # el mismo grupo que "Publicar en Instagram": nunca se pisan
@@ -32,6 +33,24 @@ jobs:
         run: |
           git config user.name "publicador"
           git config user.email "publicador@users.noreply.github.com"
+
+      - name: Si una imagen lleva tiempo sin aparecer en GitHub Pages, pedir un nuevo despliegue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY' && curl -s -o /dev/null -w "Nuevo build de Pages: HTTP %{http_code}\n" -X POST \
+              -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
+              "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds" || true
+          import json, sys, urllib.request
+          pend = json.load(open("blog.json")).get("pendientes", [])
+          for e in pend:
+              u = "https://alfonsoesteso-oss.github.io/smart-instagram/" + e["medio"]
+              try:
+                  urllib.request.urlopen(urllib.request.Request(u, method="HEAD"), timeout=30)
+              except Exception:
+                  sys.exit(0)   # falta alguna imagen: pedir build
+          sys.exit(1)           # todo en línea (o nada pendiente): no hace falta
+          PY
 
       - name: Buscar entradas nuevas en el blog
         id: preparar
