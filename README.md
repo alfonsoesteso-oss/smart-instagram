@@ -10,3 +10,10 @@ Contenido de Instagram de Smart Informática y publicador automático.
 
 Piezas: `carrusel` (2-10 imágenes), `imagen`, `reel`, `story` (sin stickers: las stories con encuesta/pregunta se suben a mano).
 Secretos necesarios en GitHub: `IG_TOKEN`, `IG_USER_ID`.
+
+## Anuncio automático de entradas del blog
+El workflow "Anunciar blog en Instagram" (`.github/workflows/blog.yml`, cada hora) consulta la API de WordPress de smart-informatica.es.
+Cuando aparece una entrada nueva, `publicador/blog.py` genera una imagen con el título (`medios/blog/`), espera a que GitHub Pages la sirva,
+la añade a `calendario.json` como pieza `imagen` con la hora actual y la publica con un pie "Nueva entrada en nuestro blog" + enlace.
+Estado en `blog.json` (`desde`: solo se anuncian entradas desde esa fecha; `vistos`: ya anunciadas).
+Probar el diseño en local: `python3 publicador/blog.py muestra "Título de prueba" muestra.jpg`.
