@@ -1,5 +1,15 @@
 {
   "desde": "2026-11-05T00:00:00",
   "vistos": [],
-  "pendientes": []
+  "pendientes": [
+    {
+      "id": 38036,
+      "fecha": "2026-11-05T19:07:59",
+      "link": "https://www.smart-informatica.es/invitaciones-falsas-de-google-calendar-como-protegerte/",
+      "titulo": "Invitaciones falsas de Google Calendar: cómo protegerte",
+      "extracto": "Invitaciones falsas de Google Calendar roban cuentas y se saltan la verificación en dos pasos. Te explicamos cómo funciona la estafa y cómo protegerte hoy.",
+      "medio": "medios/blog/2026-11-05-invitaciones-falsas-de-google-calendar-como-protegerte.jpg",
+      "detectada": "2026-11-05T20:14:34+01:00"
+    }
+  ]
 }
