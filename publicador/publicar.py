@@ -24,8 +24,12 @@ MADRID = ZoneInfo("Europe/Madrid")
 MARGEN_MAX_H = 12  # no publica piezas que se pasaron de hora más de 12 h
 
 
-def url_medio(ruta):
-    # Los medios se sirven con GitHub Pages (tipos de contenido correctos para vídeo)
+def url_medio(ruta, servidor=None):
+    # Los medios se sirven con GitHub Pages (tipos de contenido correctos para vídeo).
+    # Las piezas con "servidor": "raw" (imágenes del anuncio del blog) se sirven directamente
+    # desde raw.githubusercontent.com, para no depender de que GitHub Pages haya terminado de desplegar.
+    if servidor == "raw":
+        return f"https://raw.githubusercontent.com/{REPO}/main/{urllib.parse.quote(ruta)}"
     usuario, repo = REPO.split("/")
     base = os.environ.get("MEDIOS_BASE", f"https://{usuario}.github.io/{repo}")
     return f"{base}/{urllib.parse.quote(ruta)}"
@@ -66,13 +70,13 @@ def crear(pieza):
     if tipo == "carrusel":
         hijos = []
         for ruta in pieza["medios"]:
-            r = api("POST", f"{UID}/media", {"image_url": url_medio(ruta), "is_carousel_item": "true"})
+            r = api("POST", f"{UID}/media", {"image_url": url_medio(ruta, pieza.get("servidor")), "is_carousel_item": "true"})
             hijos.append(r["id"])
         for h in hijos:
             esperar(h)
         r = api("POST", f"{UID}/media", {"media_type": "CAROUSEL", "children": ",".join(hijos), "caption": pie})
     elif tipo == "imagen":
-        r = api("POST", f"{UID}/media", {"image_url": url_medio(pieza["medios"][0]), "caption": pie})
+        r = api("POST", f"{UID}/media", {"image_url": url_medio(pieza["medios"][0], pieza.get("servidor")), "caption": pie})
     elif tipo == "reel":
         r = api("POST", f"{UID}/media", {"media_type": "REELS", "video_url": url_medio(pieza["medios"][0]),
                                           "caption": pie, "share_to_feed": "true"})

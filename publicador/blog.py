@@ -3,7 +3,7 @@
 
 Uso:
   python publicador/blog.py preparar   # detecta entradas nuevas y genera su imagen (medios/blog/)
-  python publicador/blog.py programar  # cuando la imagen ya está en GitHub Pages, la añade a calendario.json
+  python publicador/blog.py programar  # cuando la imagen ya es accesible en GitHub, la añade a calendario.json
   python publicador/blog.py muestra "Título de prueba"   # solo genera una imagen de prueba
 
 El estado se guarda en blog.json:
@@ -78,9 +78,9 @@ def slug(link):
     return re.sub(r"[^a-z0-9-]", "", s.lower())[:60] or "entrada"
 
 
-def url_pages(ruta):
-    usuario, repo = REPO.split("/")
-    return f"https://{usuario}.github.io/{repo}/{ruta}"
+def url_publica(ruta):
+    # Igual que publicar.py con "servidor": "raw": no depende de GitHub Pages
+    return f"https://raw.githubusercontent.com/{REPO}/main/{ruta}"
 
 
 def existe(url):
@@ -262,18 +262,18 @@ def programar(espera_max=0):
     limite = time.time() + espera_max
     quedan, cambios = [], False
     for e in estado["pendientes"]:
-        url = url_pages(e["medio"])
+        url = url_publica(e["medio"])
         while not existe(url) and time.time() < limite:
             time.sleep(20)
         if not existe(url):
-            print(f"La imagen aún no está publicada en GitHub Pages: {url} (se reintentará)")
+            print(f"La imagen aún no está accesible: {url} (se reintentará)")
             quedan.append(e)
             continue
         ahora = dt.datetime.now(MADRID).replace(second=0, microsecond=0, tzinfo=None)
         pid = f"{e['fecha'][:10]}-blog-{e['id']}"
         if pid not in ids:
             cal["piezas"].append({"id": pid, "tipo": "imagen", "fecha": ahora.isoformat(),
-                                  "medios": [e["medio"]], "texto": pie(e), "origen": e["link"]})
+                                  "medios": [e["medio"]], "servidor": "raw", "texto": pie(e), "origen": e["link"]})
             print(f"Programada {pid} para {ahora.isoformat()}")
         estado["vistos"].append(e["id"])
         cambios = True

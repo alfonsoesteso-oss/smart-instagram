@@ -13,7 +13,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
 
 concurrency:
   group: publicar-instagram   # el mismo grupo que "Publicar en Instagram": nunca se pisan
@@ -34,29 +33,11 @@ jobs:
           git config user.name "publicador"
           git config user.email "publicador@users.noreply.github.com"
 
-      - name: Si una imagen lleva tiempo sin aparecer en GitHub Pages, pedir un nuevo despliegue
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          python - <<'PY' && curl -s -o /dev/null -w "Nuevo build de Pages: HTTP %{http_code}\n" -X POST \
-              -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds" || true
-          import json, sys, urllib.request
-          pend = json.load(open("blog.json")).get("pendientes", [])
-          for e in pend:
-              u = "https://alfonsoesteso-oss.github.io/smart-instagram/" + e["medio"]
-              try:
-                  urllib.request.urlopen(urllib.request.Request(u, method="HEAD"), timeout=30)
-              except Exception:
-                  sys.exit(0)   # falta alguna imagen: pedir build
-          sys.exit(1)           # todo en línea (o nada pendiente): no hace falta
-          PY
-
       - name: Buscar entradas nuevas en el blog
         id: preparar
         run: python publicador/blog.py preparar
 
-      - name: Subir la imagen (el push lanza la publicación en GitHub Pages)
+      - name: Subir la imagen al repositorio
         run: |
           git add blog.json medios/blog 2>/dev/null || true
           if ! git diff --cached --quiet; then
@@ -64,10 +45,10 @@ jobs:
             git pull --rebase && git push
           fi
 
-      - name: Añadir al calendario cuando la imagen esté en línea
+      - name: Añadir al calendario cuando la imagen sea accesible
         id: programar
         env:
-          ESPERA_PAGES: "900"   # espera hasta 15 min a GitHub Pages; si no, se reintenta en la siguiente hora
+          ESPERA_PAGES: "300"   # espera hasta 5 min a que la imagen sea accesible; si no, se reintenta en la siguiente hora
         run: |
           python publicador/blog.py programar
           python publicador/probar.py
