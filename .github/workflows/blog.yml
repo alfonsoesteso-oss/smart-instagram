@@ -13,7 +13,6 @@ on:
 
 permissions:
   contents: write
-  pages: write
 
 concurrency:
   group: publicar-instagram   # el mismo grupo que "Publicar en Instagram": nunca se pisan
@@ -38,19 +37,12 @@ jobs:
         id: preparar
         run: python publicador/blog.py preparar
 
-      - name: Subir la imagen y pedir a GitHub Pages que la publique
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Subir la imagen (el push lanza la publicación en GitHub Pages)
         run: |
           git add blog.json medios/blog 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "Blog: imagen para Instagram"
             git pull --rebase && git push
-          fi
-          if python -c "import json,sys;sys.exit(0 if json.load(open('blog.json'))['pendientes'] else 1)"; then
-            curl -s -o /dev/null -w "Petición de build de Pages: HTTP %{http_code}\n" -X POST \
-              -H "Authorization: Bearer $GH_TOKEN" -H "Accept: application/vnd.github+json" \
-              "https://api.github.com/repos/${GITHUB_REPOSITORY}/pages/builds" || true
           fi
 
       - name: Añadir al calendario cuando la imagen esté en línea
