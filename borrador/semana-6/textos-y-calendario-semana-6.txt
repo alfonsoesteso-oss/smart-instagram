@@ -1,0 +1,107 @@
+PACK SEMANA 6 · 16 – 22 nov 2026 · Smart Informática (@smartinformatica.es)
+
+ESTADO: BORRADOR. No se publica nada hasta que respondas 'ok'.
+
+CALENDARIO (publicación automática solo tras el 'ok')
+- 2026-11-16 19:00 · carrusel · 2026-11-16-carrusel-2fa
+- 2026-11-17 19:00 · reel · 2026-11-17-reel-reiniciar
+- 2026-11-18 19:00 · carrusel · 2026-11-18-carrusel-bajas
+- 2026-11-19 19:00 · reel · 2026-11-19-reel-portatil-caliente
+- 2026-11-20 19:00 · carrusel · 2026-11-20-carrusel-qr
+- 2026-11-21 19:00 · reel · 2026-11-21-reel-correo
+- 2026-11-22 20:00 · story · 2026-11-22-story-resumen
+
+STORIES CON STICKER (las subes tú a mano; mejor mañana/mediodía)
+- Lunes: stories/lunes-story-2fa.png → Encuesta: ¿Tienes activada la verificación en dos pasos? Opciones: Sí / No
+- Martes: stories/martes-story-reiniciar.png → Encuesta: ¿Reinicias tu ordenador de vez en cuando? Opciones: Sí / Nunca
+- Miércoles: stories/miercoles-story-bajas.png → Encuesta: ¿Sabes quién tiene acceso a los sistemas de tu empresa? Opciones: Sí / Ni idea
+- Jueves: stories/jueves-story-portatil.png → Encuesta: ¿Tu portátil suena como un avión? Opciones: Siempre / A veces
+- Viernes: stories/viernes-story-qr.png → Encuesta: ¿Has escaneado hoy un código QR sin mirar adónde llevaba? Opciones: Sí / No
+- Sábado: stories/sabado-story-spam.png → Encuesta: ¿Se te ha ido un correo importante a spam? Opciones: Sí / No
+- Domingo: stories/domingo-story-2-preguntas.png → Caja de preguntas: 'Pregúntale a un informático lo que quieras'. El resumen (story 1) se publica solo a las 20:00.
+
+============================================================
+2026-11-16-carrusel-2fa  (carrusel, 2026-11-16T19:00:00)
+============================================================
+Verificación en dos pasos: 6 cosas que debes saber 🔐
+
+Un segundo candado para tus cuentas: aunque alguien consiga tu contraseña, todavía le falta ese segundo paso. Desliza y aprende cómo activarla y qué evitar.
+
+¿La tienes activada en tu correo? Cuéntanoslo en comentarios 👇
+Guárdalo y compártelo con quien aún no la use.
+
+Síguenos para más consejos de informática y seguridad.
+
+#verificacionendospasos #2fa #contraseñas #ciberseguridad #seguridadinformatica #privacidad #cuentas #tecnologia #consejostech #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-17-reel-reiniciar  (reel, 2026-11-17T19:00:00)
+============================================================
+¿Cerrar la tapa del portátil es lo mismo que reiniciar? 💻
+
+No: suspender el equipo no reinicia el sistema. Reiniciar de vez en cuando ayuda a aplicar actualizaciones y a liberar memoria, sobre todo si va lento o Windows te lo pide.
+
+¿Cada cuánto reinicias el tuyo? Cuéntanoslo en comentarios 👇
+
+Síguenos para más consejos de informática y seguridad.
+
+#mitos #windows #portatil #reiniciar #trucos #rendimiento #consejostech #tecnologia #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-18-carrusel-bajas  (carrusel, 2026-11-18T19:00:00)
+============================================================
+Cuando un empleado se va: 6 pasos informáticos 🚪💻
+
+Retirar accesos, cambiar claves compartidas, recuperar equipos, traspasar el trabajo, cerrar sesiones y dejarlo por escrito. Con un procedimiento sencillo, su marcha no deja puertas abiertas ni pone en riesgo los datos de tu empresa.
+
+¿Tienes un protocolo de altas y bajas? Te ayudamos a prepararlo con una revisión sin compromiso: escríbenos por mensaje directo.
+
+Contenido divulgativo. No sustituye al asesoramiento legal.
+
+#pymes #autonomos #empresas #ciberseguridad #seguridadinformatica #proteccióndedatos #rgpd #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-19-reel-portatil-caliente  (reel, 2026-11-19T19:00:00)
+============================================================
+¿Tu portátil se calienta demasiado? 🔥
+
+Tres causas habituales: rejillas de ventilación tapadas (cama, sofá, manta), polvo acumulado en el ventilador y demasiados programas abiertos. Si el ventilador no para nunca, que lo revise un técnico.
+
+¿Te ha pasado? Cuéntanoslo en comentarios 👇
+
+Síguenos para más consejos de informática.
+
+#portatil #ordenador #sobrecalentamiento #mantenimiento #trucos #consejostech #tecnologia #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-20-carrusel-qr  (carrusel, 2026-11-20T19:00:00)
+============================================================
+Códigos QR: 6 precauciones antes de escanear 📱
+
+Un cuadrado pequeño puede esconder una web falsa. Mira la dirección, desconfía de pegatinas y mensajes inesperados, no pongas claves ni pagos sin comprobar la web y ante la duda, escribe tú la dirección oficial.
+
+¿Escaneas sin mirar? Cuéntanoslo en comentarios 👇
+Guárdalo y compártelo con quien más escanea.
+
+Síguenos para más consejos de informática y seguridad.
+
+#codigoqr #qr #estafas #fraude #ciberseguridad #seguridadinformatica #privacidad #consejostech #tecnologia #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-21-reel-correo  (reel, 2026-11-21T19:00:00)
+============================================================
+Frases típicas: «no me llega el correo» 📧😅
+
+«Estaba en spam», «tengo 40.000 correos», «se me olvidó adjuntarlo»… Todos hemos estado ahí.
+
+¿Cuál es la tuya? Cuéntanoslo en comentarios 👇 Y etiqueta a quien siempre pierde correos.
+
+Síguenos: informática sin dramas.
+
+#humor #informaticos #correo #email #oficina #memes #trabajo #informatica #smartinformatica #madrid
+
+TEMAS DE LA SEMANA 6 (no repetir): verificación en dos pasos; suspender no es reiniciar (mito/realidad); bajas de empleados (pasos informáticos); portátil que se calienta; códigos QR; humor «no me llega el correo».
+HISTORIAL ACUMULADO: estafas SMS/WhatsApp; atajos Windows; contraseñas débiles; RGPD 5 cosas; frases de informático; IA en el día a día; copias 3-2-1; semana 2: WhatsApp, mitos de ciberseguridad, Microsoft 365, 'no hagas esto en el trabajo', móvil lento, vender tu ordenador; semana 3: Wi-Fi, cuenta hackeada, contrato de mantenimiento, humor videollamada, atajos Excel, sustos Halloween; semana 4: phishing por email, VPN, teletrabajo seguro, humor impresora, trucos Windows 11, qué hacer si pierdes el móvil; semana 5: gestor de contraseñas, ransomware, Black Friday, Wi-Fi lento en casa, así te ayudamos, humor archivo borrado.
+IDEAS SEMANA 7 (23-29 nov): Black Friday para pymes (webs de empresa seguras); qué es la nube; trucos de Outlook/Teams; caso de recuperación de datos (solo con caso real autorizado y anonimizado); regalos tecnológicos de Navidad: qué mirar; copias de seguridad para autónomos.
+MÉTRICAS: cuando puedas, envíame alcance/guardados/compartidos de las semanas anteriores para ajustar qué formato funciona mejor.
+A REVISAR: carrusel del miércoles (bajas de empleados; menciona protección de datos personales; lleva el pie de aviso legal en todas las diapositivas; confirma que 'revisión sin compromiso' y 'te ayudamos a prepararlo' encajan con tu oferta). Reel del martes: confirma que la explicación (suspender no reinicia; reiniciar aplica actualizaciones y libera memoria) te encaja. Carrusel del lunes: 'app de autenticación suele ser más segura que SMS' es consejo general. Nota técnica: el icono de marca se ha regenerado con el código de blog.py (no con el PNG original del logo).
