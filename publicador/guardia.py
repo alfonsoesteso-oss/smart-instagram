@@ -11,8 +11,9 @@ Funcionamiento:
   - Si sale dentro del tiempo que le queda a esta ejecución (PRESUPUESTO), espera hasta su hora,
     ejecuta publicar.py y guarda estado.json en el repositorio en ese momento (así nunca se
     publica dos veces). Si falla, reintenta a los 10 minutos (publicar.py omite la pieza al 3.er fallo).
-  - Si sale más tarde, pero antes de 2 x PRESUPUESTO, espera lo que puede y lanza una ejecución
-    nueva del flujo (relevo) que seguirá esperando.
+  - Si sale más tarde, pero antes de 3 x PRESUPUESTO (~16 h), espera lo que puede y lanza una
+    ejecución nueva del flujo (relevo) que seguirá esperando. Así basta con que GitHub lance el
+    flujo una vez por la mañana (hacia las 07 h) para que la pieza de las 19:00 salga a su hora.
   - Si sale más tarde aún, termina: alguna de las ejecuciones de GitHub de las siguientes horas
     la recogerá.
 
@@ -138,7 +139,7 @@ def main():
             llamadas[p["id"]] = llamadas.get(p["id"], 0) + 1
             publicar()
             continue
-        if cuando <= LIMITE + PRESUPUESTO:
+        if cuando <= LIMITE + 2 * PRESUPUESTO:
             log(f"siguiente pieza {p['id']} a las {cuando:%d/%m %H:%M}: espero hasta {LIMITE:%H:%M} y lanzo relevo")
             dormir_hasta(LIMITE)
             relevo()
