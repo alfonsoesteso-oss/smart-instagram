@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  actions: write   # para que la guardia pueda lanzar un relevo
 
 concurrency:
   group: publicar-instagram
@@ -15,6 +16,7 @@ concurrency:
 jobs:
   publicar:
     runs-on: ubuntu-latest
+    timeout-minutes: 350
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,6 +33,15 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_TOKEN: ${{ secrets.IG_TOKEN }}
         run: python publicador/publicar.py
+      - name: Esperar a la siguiente pieza y publicarla a su hora
+        # GitHub no respeta el cron de 10 min (desde el 15 nov solo lanza ~4 ejecuciones al día).
+        # La guardia se queda esperando dentro de esta ejecución hasta la hora de la pieza.
+        if: always()
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_TOKEN: ${{ secrets.IG_TOKEN }}
+          GH_TOKEN: ${{ github.token }}
+        run: python publicador/guardia.py
       - name: Guardar estado
         if: always()
         run: |
