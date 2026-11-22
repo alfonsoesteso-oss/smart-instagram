@@ -485,6 +485,62 @@
       "medios": [
         "medios/semana-7/story-domingo-resumen.jpg"
       ]
+    },
+    {
+      "id": "2026-11-23-story-nube",
+      "tipo": "story",
+      "fecha": "2026-11-23T12:00:00",
+      "medios": [
+        "medios/semana-7/story-auto-lunes-nube.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-24-story-incognito",
+      "tipo": "story",
+      "fecha": "2026-11-24T12:00:00",
+      "medios": [
+        "medios/semana-7/story-auto-martes-incognito.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-25-story-equipo",
+      "tipo": "story",
+      "fecha": "2026-11-25T12:00:00",
+      "medios": [
+        "medios/semana-7/story-auto-miercoles-equipo.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-26-story-contrasena",
+      "tipo": "story",
+      "fecha": "2026-11-26T12:00:00",
+      "medios": [
+        "medios/semana-7/story-auto-jueves-contrasena.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-27-story-outlook",
+      "tipo": "story",
+      "fecha": "2026-11-27T12:00:00",
+      "medios": [
+        "medios/semana-7/story-auto-viernes-outlook.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-28-story-arranque",
+      "tipo": "story",
+      "fecha": "2026-11-28T12:00:00",
+      "medios": [
+        "medios/semana-7/story-auto-sabado-arranque.jpg"
+      ]
+    },
+    {
+      "id": "2026-11-29-story-preguntas",
+      "tipo": "story",
+      "fecha": "2026-11-29T12:00:00",
+      "medios": [
+        "medios/semana-7/story-auto-domingo-preguntas.jpg"
+      ]
     }
   ]
 }
