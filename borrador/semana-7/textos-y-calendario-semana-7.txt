@@ -1,0 +1,105 @@
+PACK SEMANA 7 · 23 – 29 nov 2026 · Smart Informática (@smartinformatica.es)
+
+ESTADO: BORRADOR. No se publica nada hasta que respondas 'ok'.
+
+CALENDARIO (publicación automática solo tras el 'ok')
+- 2026-11-23 19:00 · carrusel · 2026-11-23-carrusel-nube
+- 2026-11-24 19:00 · reel · 2026-11-24-reel-incognito
+- 2026-11-25 19:00 · carrusel · 2026-11-25-carrusel-equipo
+- 2026-11-26 19:00 · reel · 2026-11-26-reel-contrasena
+- 2026-11-27 19:00 · carrusel · 2026-11-27-carrusel-outlook
+- 2026-11-28 19:00 · reel · 2026-11-28-reel-pide-ayuda
+- 2026-11-29 20:00 · story · 2026-11-29-story-resumen
+
+STORIES CON STICKER (las subes tú a mano; mejor mañana/mediodía)
+- Lunes: stories/lunes-story-nube.png → Encuesta: ¿Guardas tus archivos en la nube? Opciones: Sí / No
+- Martes: stories/martes-story-incognito.png → Encuesta: ¿Usas el modo incógnito para ser invisible? Opciones: Sí / No (respuesta: no te hace invisible)
+- Miércoles: stories/miercoles-story-equipo.png → Encuesta: ¿Cuántos años tiene tu ordenador de trabajo? Opciones: Menos de 5 / Más de 5
+- Jueves: stories/jueves-story-contrasena.png → Encuesta: ¿Has olvidado alguna contraseña esta semana? Opciones: Sí / No
+- Viernes: stories/viernes-story-outlook.png → Encuesta: ¿Usas Outlook en el trabajo? Opciones: Sí / No
+- Sábado: stories/sabado-story-arranque.png → Encuesta: ¿Tu ordenador tarda mucho en arrancar? Opciones: Sí / No
+- Domingo: stories/domingo-story-2-preguntas.png → Caja de preguntas: 'Pregúntale a un informático lo que quieras'. El resumen (story 1) se publica solo a las 20:00.
+
+============================================================
+2026-11-23-carrusel-nube  (carrusel, 2026-11-23T19:00:00)
+============================================================
+La nube: dónde están realmente tus archivos ☁️
+
+No es magia: son servidores de otra empresa. Desliza y descubre 6 ideas claras para usarla con cabeza: sincronizar no es hacer copia, cuidado con los enlaces compartidos y protege tu cuenta.
+
+¿Guardas tus archivos en la nube? Cuéntanoslo en comentarios 👇
+Guárdalo y compártelo con quien aún se pregunta dónde se guardan sus cosas.
+
+Síguenos para más consejos de informática y seguridad.
+
+#nube #cloud #almacenamiento #copiasdeseguridad #ciberseguridad #privacidad #tecnologia #consejostech #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-24-reel-incognito  (reel, 2026-11-24T19:00:00)
+============================================================
+¿El modo incógnito te hace invisible? 🕶️
+
+No. Solo evita que se guarde el historial en ese dispositivo. Las webs que visitas, tu proveedor de internet o la red de tu empresa pueden seguir viendo tu actividad.
+
+¿Lo usabas pensando que te protegía? Cuéntanoslo en comentarios 👇
+
+Síguenos para más consejos de informática y seguridad.
+
+#modoincognito #privacidad #navegador #ciberseguridad #mitos #internet #tecnologia #consejostech #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-25-carrusel-equipo  (carrusel, 2026-11-25T19:00:00)
+============================================================
+Antes de comprar un equipo para tu negocio: 6 preguntas 💻
+
+Uso, disco y memoria, compatibilidad con tus programas, garantía y soporte, traslado de datos y seguridad desde el primer día. Con estas preguntas, comprarás lo que de verdad necesitas.
+
+¿Vas a renovar equipos? Te asesoramos con una revisión sin compromiso: escríbenos por mensaje directo.
+
+#pymes #autonomos #empresas #ordenadores #equiposinformaticos #soporteinformatico #consejostech #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-26-reel-contrasena  (reel, 2026-11-26T19:00:00)
+============================================================
+Frases típicas al olvidar la contraseña 🔑😅
+
+«Las ocho que recuerdo», «el correo de recuperación que ya no uso», «la apunto en un post-it»… Todos hemos estado ahí.
+
+¿Cuál es la tuya? Cuéntanoslo en comentarios 👇 Y etiqueta a quien siempre olvida sus claves.
+
+Síguenos: informática sin dramas.
+
+#humor #contraseñas #informaticos #oficina #trabajo #memes #tecnologia #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-27-carrusel-outlook  (carrusel, 2026-11-27T19:00:00)
+============================================================
+6 trucos de Outlook para ahorrar tiempo 📧
+
+Atajos de teclado de Outlook clásico para Windows: mensaje nuevo, responder, responder a todos, enviar, buscar e ir al calendario. Pequeños gestos que suman a diario.
+
+¿Cuál usarás desde hoy? Cuéntanoslo en comentarios 👇
+Guárdalo para tenerlo a mano y compártelo con quien use Outlook.
+
+Síguenos para más trucos de Windows, Office y seguridad.
+
+#outlook #microsoft #office #productividad #atajos #trucos #consejostech #tecnologia #informatica #smartinformatica #madrid
+
+============================================================
+2026-11-28-reel-pide-ayuda  (reel, 2026-11-28T19:00:00)
+============================================================
+3 avisos de que tu ordenador pide ayuda 🆘
+
+Tarda mucho más que antes en arrancar, se cuelga o se reinicia solo, o hace ruidos raros y se queda sin espacio. Si te suena, haz copia de seguridad antes de que falle y que lo revise un técnico.
+
+¿Te ha pasado? Cuéntanoslo en comentarios 👇 ¿Quieres que lo revisemos? Escríbenos sin compromiso.
+
+Síguenos para más consejos de informática.
+
+#ordenador #mantenimiento #copiasdeseguridad #pymes #soporteinformatico #consejostech #tecnologia #informatica #smartinformatica #madrid
+
+TEMAS DE LA SEMANA 7 (no repetir): qué es la nube (6 ideas); mito del modo incógnito; comprar un equipo para tu negocio (6 preguntas); humor «olvidé la contraseña»; trucos de Outlook (atajos); 3 avisos de que tu ordenador pide ayuda.
+HISTORIAL ACUMULADO: estafas SMS/WhatsApp; atajos Windows; contraseñas débiles; RGPD 5 cosas; frases de informático; IA en el día a día; copias 3-2-1; semana 2: WhatsApp, mitos de ciberseguridad, Microsoft 365, 'no hagas esto en el trabajo', móvil lento, vender tu ordenador; semana 3: Wi-Fi, cuenta hackeada, contrato de mantenimiento, humor videollamada, atajos Excel, sustos Halloween; semana 4: phishing por email, VPN, teletrabajo seguro, humor impresora, trucos Windows 11, pérdida del móvil; semana 5: gestor de contraseñas, ransomware, Black Friday, Wi-Fi lento en casa, servicios de Smart, humor archivo borrado; semana 6: verificación en dos pasos, reiniciar el portátil, bajas de empleados, portátil caliente, códigos QR, humor correo.
+IDEAS SEMANA 8 (30 nov - 6 dic): Ciberlunes y compras seguras (si se quiere insistir); qué es el RGPD para un autónomo; trucos de Teams; actualizaciones del móvil; caso de recuperación de datos (solo con caso real autorizado y anonimizado); detrás de cámaras del equipo; resumen del año / propósitos informáticos para 2027.
+MÉTRICAS: cuando puedas, envíame alcance/guardados/compartidos de las semanas anteriores para ajustar qué formato funciona mejor.
+A REVISAR: (1) Carrusel del miércoles (compra de equipos): consejos generales, no cita marcas ni precios; confirma que te encaja ofrecer 'revisión/asesoramiento sin compromiso'. (2) Carrusel de Outlook: los atajos (Ctrl+Shift+M, Ctrl+R, Ctrl+Shift+R, Ctrl+Enter, Ctrl+E, Ctrl+1/2) corresponden a Outlook clásico para Windows; el 'nuevo Outlook' puede variar. (3) Reel incógnito: «solo evita guardar historial en ese dispositivo; webs, proveedor de internet o red de la empresa pueden seguir viendo la actividad». (4) Carrusel de la nube: consejos generales, sin cifras ni marcas. No hay contenido legal/RGPD esta semana; el único con mención a datos es el de la compra de equipos (traslado de datos), sin afirmaciones legales. Nota: el icono de marca se ha regenerado con el código de publicador/blog.py.
