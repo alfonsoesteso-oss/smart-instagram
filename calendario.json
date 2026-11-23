@@ -541,6 +541,17 @@
       "medios": [
         "medios/semana-7/story-auto-domingo-preguntas.jpg"
       ]
+    },
+    {
+      "id": "2026-11-22-blog-38038",
+      "tipo": "imagen",
+      "fecha": "2026-11-23T17:37:00",
+      "medios": [
+        "medios/blog/2026-11-22-windows-11-26h2-se-instala-solo-que-hacer-en-tu-pc.jpg"
+      ],
+      "servidor": "raw",
+      "texto": "📝 Nueva entrada en nuestro blog: «Windows 11 26H2 se instala solo: qué hacer en tu PC»\n\nMicrosoft ya instala Windows 11 26H2 automáticamente en PCs personales y de pymes. Qué cambia, si conviene actualizar y cómo prepararte para evitar sustos.\n\n👉 Léela completa en el enlace de nuestra bio o aquí:\nhttps://www.smart-informatica.es/windows-11-26h2-se-instala-solo-que-hacer-en-tu-pc/\n\n#smartinformatica #madrid #blog #informatica #ciberseguridad #tecnologia #pymes #consejostech",
+      "origen": "https://www.smart-informatica.es/windows-11-26h2-se-instala-solo-que-hacer-en-tu-pc/"
     }
   ]
 }
